@@ -1,151 +1,122 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: auto auto auto auto;
-            gap: 20px;
-            padding: 10px;
-        }
-
-        .grid-container>div {
-            height: 200px;
-            font-size: 20px;
-        }
-
-        .grid-content {
-            width: 93%;
-            height: 95%;
-        }
-        .grid-content>div>input {
-           margin: 25px auto;
-        }
-    </style>
-</head>
-
-<body>
-
-    <h1 style="text-align: center;">Options</h1>
-
-    <div class="grid-container">
-        <div class="item1">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="checkbox" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="checkbox" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-            </fieldset>
-        </div>
-        <div class="item2">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="radio" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="radio" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-            </fieldset>
-        </div>
-        <div class="item3">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="radio" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="radio" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-                
-            </fieldset>
-        </div>
-        <div class="item4">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="checkbox" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="checkbox" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-                <div>
-                    <input type="checkbox" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-            </fieldset>
-        </div>
-        <div class="item5">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="radio" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="radio" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-                <div>
-                    <input type="radio" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-            </fieldset>
-        </div>
-        <div class="item6">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="radio" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="radio" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-            </fieldset>
-        </div>
-        <div class="item7">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="radio" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="radio" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-            </fieldset>
-        </div>
-        <div class="item8">
-            <fieldset class="grid-content">
-                <legend>Connectivity Rules:</legend>
-                <div>
-                    <input type="checkbox" id="load-aircraft" name="load-aircraft" value="Load-Aircraft">
-                      <label for="load-aircraft">Load-Aircraft</label><br>
-                </div>
-                <div>
-                    <input type="checkbox" id="gauge-check" name="gauge-check" value="Gauge-Check">
-                      <label for="gauge-check">Gauge-Check</label><br>
-                </div>
-            </fieldset>
-        </div>
-    </div>
-
-
-</body>
-
-</html>
+[
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  },
+  {
+    "name": "Connectivity Rules",
+    "controls": [
+      {
+        "type": "checkbox",
+        "label": "Load-AirCraft",
+        "id": "load-aircraft-checkbox"
+      },
+      {
+        "type": "checkbox",
+        "label": "Gauage-Check",
+        "id": "gauage-check-checkbox"
+      }
+    ]
+  }
+]
