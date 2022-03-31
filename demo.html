@@ -1,1 +1,170 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .wire-data-wrapper {
+            margin: 20px;
+        }
+
+        .wire-data-header {
+            height: 80px;
+            width: 100%;
+            border: 1px solid black;
+
+        }
+
+        .origin-data-header {
+            width: 48%;
+            float: left;
+            margin: 4px;
+        }
+
+        .destination-data-header {
+            width: 48%;
+            float: right;
+            margin: 4px;
+        }
+
+        .origin-data-wrapper,
+        .destination-data-wrapper {
+            display: flex;
+        }
+
+        .wire-data-list-wrapper {
+            min-height: 400px;
+            width: 100%;
+            display: flex;
+            resize: vertical;
+            overflow: hidden;
+            border: 1px solid black;
+        }
+
+        .wire-harness-data-list {
+            width: 60%;
+            min-height: 100%;
+            float: left;
+            resize: horizontal;
+            overflow: hidden;
+            border-right: 1px solid black;
+
+        }
+
+        .wire-refdes-data-list {
+            width: 40%;
+            min-height: 100%;
+            float: right;
+
+
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .wire-list-wrapper {
+            min-height: 360px;
+            width: 100%;
+            display: grid;
+            border: 1px solid black;
+        }
+        .wire-data-footer {
+            width: 100%;
+            height: 80;
+            border: 1px solid black;
+        }
+        .button {
+            margin: 20px;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="wire-data-wrapper">
+        <div class="wire-data-header">
+            <div class="origin-data-header">
+                <fieldset>
+                    <legend>Origin</legend>
+                    <div class="origin-data-wrapper">
+                        <div style="width: 40%;">
+                            <input type="radio" id="javascript" name="Harness" value="Harness">
+                            <label for="javascript">Harness</label>
+                            <input type="text" id="" name="" value="">
+                        </div>
+                        <div style="width: 40%;">
+                            <input type="radio" id="Refdes" name="Refdes" value="Refdes">
+                            <label for="javascript">Refdes</label>
+                            <input type="text" id="" name="" value="">
+                        </div>
+                        <div style="width: 20%;">
+                            <label for="javascript">Pin</label>
+                            <input style="width: 20px;" type="text" id="" name="" value="">
+                        </div>
+                    </div>
+            </div>
+            <div class="destination-data-header">
+                <fieldset>
+                    <legend>Destination</legend>
+                    <div class="destination-data-wrapper">
+                        <div style="width: 40%;">
+                            <input type="radio" id="javascript" name="Harness" value="Harness">
+                            <label for="javascript">Harness</label>
+                            <input type="text" id="" name="" value="">
+                        </div>
+                        <div style="width: 40%;">
+                            <input type="radio" id="Refdes" name="Refdes" value="Refdes">
+                            <label for="javascript">Refdes</label>
+                            <input type="text" id="" name="" value="">
+                        </div>
+                        <div style="width: 20%;">
+                            <input type="radio" id="destination-none" name="None" value="None">
+                            <label for="javascript">None</label>
+
+                        </div>
+                    </div>
+            </div>
+            </fieldset>
+        </div>
+
+        <div class="wire-data-list-wrapper">
+
+            <div class="wire-harness-data-list">
+                <div class="center">
+                    <label>Harness List</label>
+                </div>
+            </div>
+            <div class="wire-refdes-data-list">
+                <div class="center">
+                    <label>Refdes List</label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="wire-list-wrapper">
+            <div class="center">
+                <label>Wire List</label>
+            </div>
+        </div>
+
+        <div class="wire-data-footer">
+            <div class="center">
+               <button class="button">Button1</button>
+               <button class="button">Button2</button>
+               <button class="button">Button3</button>
+               <button class="button">Button4</button>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
